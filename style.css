@@ -1,0 +1,21 @@
+.grid{
+  display: grid;
+  background: #000;
+  width: 300px;
+  height: 300px;
+  gap: 10px;
+  grid-template-columns: repeat(3,auto);
+  grid-template-rows: repeat(3,auto);
+}
+
+.square{
+  background:white;
+}
+
+.blue{
+  background: blue;
+}
+
+.red{
+  background: red;
+}
